@@ -46,14 +46,6 @@ abstract class Controller
     }
 
     /**
-     * @return array
-     */
-    public function getVars()
-    {
-        return $this->vars;
-    }
-
-    /**
      * @param array $vars
      */
     public function setVars($vars)
