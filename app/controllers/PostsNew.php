@@ -2,15 +2,10 @@
 
 namespace app\controllers;
 
-class PostsNew
+class PostsNew extends App
 {
 
-
-    /**
-     * PostsNew constructor.
-     */
     public function indexAction()
     {
-        echo __METHOD__;
     }
 }

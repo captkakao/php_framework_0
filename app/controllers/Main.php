@@ -2,12 +2,16 @@
 
 namespace app\controllers;
 
-use vendor\core\base\Controller;
-
-class Main extends Controller
+class Main extends App
 {
+    public $layout = 'main';
+
     public function indexAction()
     {
-        echo __METHOD__;
+//        $this->layout = false;
+        $name = "Sultanbek";
+        $hi = "Hello";
+
+        $this->setVars(compact('name', 'hi'));
     }
 }
