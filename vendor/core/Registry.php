@@ -13,7 +13,6 @@ class Registry
     protected function __construct()
     {
         $config = require_once ROOT . '/config/config.php';
-        debug($config);
         foreach ($config['components'] as $name => $component) {
             self::$objects[$name] = new $component;
         }
