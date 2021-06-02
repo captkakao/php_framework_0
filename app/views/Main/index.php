@@ -1,5 +1,6 @@
 <div class="container">
     MAIN INDEX view
+    <div id="answer"></div>
     <button type="button" class="btn btn-primary" id="send">Primary</button>
     <?php if (!empty($posts)): ?>
         <?php foreach ($posts as $post): ?>
@@ -23,7 +24,10 @@
                 type: 'post',
                 data: {'id': 2},
                 success: function (res) {
-                    console.log(res);
+                    // console.log(res);
+                    // var data = JSON.parse(res);
+                    // $('#answer').html('<p>Answer: ' + data.answer + 'Code: ' + data.code + '</p>');
+                    $('#answer').html(res);
                 },
                 error: function () {
                     alert('Error!');

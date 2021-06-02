@@ -12,3 +12,7 @@
 ---------------------------------------------
 [2021-06-02 18:22:22] Error text: Undefined variable: re | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 16
 ---------------------------------------------
+[2021-06-03 02:23:40] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-03 02:23:50] Error text: Array to string conversion | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 26
+---------------------------------------------

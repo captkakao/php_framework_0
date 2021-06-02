@@ -13,7 +13,6 @@ class MainController extends AppController
     public function indexAction()
     {
         $model = new Main();
-//        \R::fancyDebug(true);
         $posts = \R::findAll('posts');
         View::setMeta('Main page', 'Page description', 'Keywords');
         $this->setVars(compact('posts'));
@@ -23,6 +22,8 @@ class MainController extends AppController
     {
         if ($this->isAjax()) {
             $model = new Main();
+//            $data = ['answer' => 'Response from server', 'code' => 200];
+//            echo json_encode($data);
             $post = \R::findOne('posts', "id = {$_POST['id']}");
             $this->loadView('_test', compact('post'));
             die;

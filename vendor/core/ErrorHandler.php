@@ -21,7 +21,9 @@ class ErrorHandler
 
     public function errorHandler($errno, $errstr, $errfile, $errline) {
         $this->logErrors($errstr, $errfile, $errline);
-        $this->displayError($errno, $errstr, $errfile, $errline);
+        if (DEBUG || in_array($errstr, [E_USER_ERROR, E_RECOVERABLE_ERROR])) {
+            $this->displayError($errno, $errstr, $errfile, $errline);
+        }
     }
 
     public function fatalErrorHandler() {
