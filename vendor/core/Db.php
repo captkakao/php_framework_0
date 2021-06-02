@@ -6,8 +6,10 @@ namespace vendor\core;
 
 class Db
 {
+    use TSingleton;
+    
     protected $pdo;
-    protected static $instance;
+//    protected static $instance;
     public static $countSql = 0;
     public static $queries = [];
 
@@ -19,10 +21,10 @@ class Db
         \R::freeze(true);
     }
 
-    public static function instance() {
-        if (self::$instance === null) {
-            self::$instance = new self;
-        }
-        return self::$instance;
-    }
+//    public static function instance() {
+//        if (self::$instance === null) {
+//            self::$instance = new self;
+//        }
+//        return self::$instance;
+//    }
 }

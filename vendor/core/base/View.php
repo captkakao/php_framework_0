@@ -86,7 +86,7 @@ class View
     }
 
     public static function getMeta() {
-        echo '<title>' . self::$meta['title'] . '<title>
+        echo '<title>' . self::$meta['title'] . '</title>
         <meta name="description" content="' . self::$meta['desc'] . '">
         <meta name="keywords" content="' . self::$meta['keywords'] . '">';
     }
