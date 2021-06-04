@@ -3,13 +3,18 @@
     <div id="answer"></div>
     <button type="button" class="btn btn-primary" id="send">Primary</button>
     <br>
+<!--    To enable cache set cache as key and true as value,-->
+<!--    then set cacheTime in seconds like 3600,-->
+<!--    then set cacheKey to store it in tmp as filename-->
+<!--    example below-->
+<!--    -->
+<!--    'cache' => true,-->
+<!--    'cacheTime' => 3600 * 2,-->
+<!--    'cacheKey' => 'fw_widget_name'-->
     <?php new \vendor\widgets\menu\Menu([
             'tpl' => WWW . '/menu/select.php',
             'container' => 'select',
-            'table' => 'categories',
-            'cache' => true,
-            'cacheTime' => 60,
-            'cacheKey' => 'menu_select'
+            'table' => 'categories'
     ]); ?>
     <?php if (!empty($posts)): ?>
         <?php foreach ($posts as $post): ?>

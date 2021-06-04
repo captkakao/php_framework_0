@@ -34,3 +34,27 @@
 ---------------------------------------------
 [2021-06-04 09:19:41] Error text: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush | File: D:\OSPanel\domains\fw-loc\vendor\core\ErrorHandler.php, Line: 37
 ---------------------------------------------
+[2021-06-04 12:01:03] Error text: Controller <b>app\controllers\AdminController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 97
+---------------------------------------------
+[2021-06-04 12:01:32] Error text: Controller <b>app\controllers\AdminController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 97
+---------------------------------------------
+[2021-06-04 12:02:17] Error text: Controller <b>app\controllers\AdminController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 97
+---------------------------------------------
+[2021-06-04 13:04:43] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 13:35:59] Error text: Controller <b>app\controllers\UserController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 97
+---------------------------------------------
+[2021-06-04 13:49:40] Error text: Controller <b>app\controllers\UwsController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 97
+---------------------------------------------
+[2021-06-04 13:56:37] Error text: Controller <b>app\controllers\UwsController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 99
+---------------------------------------------
+[2021-06-04 14:51:45] Error text: Controller <b>app\controllers\admin\UwsController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 105
+---------------------------------------------
+[2021-06-04 14:52:50] Error text: Controller <b>app\controllers\admin\UwsController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 102
+---------------------------------------------
+[2021-06-04 14:52:55] Error text: Controller <b>app\controllers\admin\UserController</b> not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 102
+---------------------------------------------
+[2021-06-04 16:10:17] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/admin\User/index.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\core\base\View.php, Line: 59
+---------------------------------------------
+[2021-06-04 16:38:52] Error text: Call to undefined method app\controllers\admin\UserController::set() | File: D:\OSPanel\domains\fw-loc\app\controllers\admin\UserController.php, Line: 15
+---------------------------------------------

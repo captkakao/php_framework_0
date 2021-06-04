@@ -63,6 +63,13 @@ class Router
                 if (!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
+                // prefix for admin controllers
+                if (!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                }
+                else {
+                    $route['prefix'] .= '\\';
+                }
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return true;
@@ -79,7 +86,7 @@ class Router
     public static function dispatch($url) {
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route['controller'] . 'Controller';
+            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
                 $controllerObject = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action'] . 'Action');
@@ -88,18 +95,14 @@ class Router
                     $controllerObject->getView();
                 }
                 else {
-//                    echo "Method <b>$controller::$action</b> not found";
                     throw new \Exception("Method <b>$controller::$action</b> not found", 404);
                 }
             }
             else {
-//                echo "Controller <b>$controller</b> not found";
                 throw new \Exception("Controller <b>$controller</b> not found", 404);
             }
         }
         else {
-//            http_response_code(404);
-//            include '404.html';
             throw new \Exception("Page not found", 404);
         }
     }
