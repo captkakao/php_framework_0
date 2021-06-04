@@ -16,3 +16,21 @@
 ---------------------------------------------
 [2021-06-03 02:23:50] Error text: Array to string conversion | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 26
 ---------------------------------------------
+[2021-06-03 17:07:04] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-03 20:22:01] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 00:13:21] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 06:46:18] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 06:47:54] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 06:50:03] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 08:14:29] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\core\Router.php, Line: 103
+---------------------------------------------
+[2021-06-04 09:19:27] Error text: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush | File: D:\OSPanel\domains\fw-loc\vendor\core\ErrorHandler.php, Line: 37
+---------------------------------------------
+[2021-06-04 09:19:41] Error text: ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush | File: D:\OSPanel\domains\fw-loc\vendor\core\ErrorHandler.php, Line: 37
+---------------------------------------------

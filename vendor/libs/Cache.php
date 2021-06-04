@@ -29,6 +29,7 @@ class Cache
             }
             unlink($file);
         }
+        return false;
     }
 
     public function delete($key) {

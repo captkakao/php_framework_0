@@ -2,6 +2,15 @@
     MAIN INDEX view
     <div id="answer"></div>
     <button type="button" class="btn btn-primary" id="send">Primary</button>
+    <br>
+    <?php new \vendor\widgets\menu\Menu([
+            'tpl' => WWW . '/menu/select.php',
+            'container' => 'select',
+            'table' => 'categories',
+            'cache' => true,
+            'cacheTime' => 60,
+            'cacheKey' => 'menu_select'
+    ]); ?>
     <?php if (!empty($posts)): ?>
         <?php foreach ($posts as $post): ?>
             <div class="card mb-3">
