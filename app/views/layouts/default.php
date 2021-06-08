@@ -23,6 +23,15 @@
         <li class="nav-item">
             <a class="nav-link" href="/admin">Admin</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/user/signup">SignUp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/user/login">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/user/logout">Logout</a>
+        </li>
     </ul>
 
     <?=$content?>

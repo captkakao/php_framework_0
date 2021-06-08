@@ -1,0 +1,6 @@
+[2021-06-08 12:48:19] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-08 12:48:25] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/User/logout.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 59
+---------------------------------------------
+[2021-06-08 13:50:20] Error text: Undefined variable: nane | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\Model.php, Line: 22
+---------------------------------------------
