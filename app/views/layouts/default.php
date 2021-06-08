@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <?php \vendor\core\base\View::getMeta(); ?>
+    <?php \fw\core\base\View::getMeta(); ?>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -13,6 +13,17 @@
 </head>
 <body>
     <h1>Hello, world!</h1>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/page">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/admin">Admin</a>
+        </li>
+    </ul>
 
     <?=$content?>
 

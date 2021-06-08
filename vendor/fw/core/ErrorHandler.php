@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vendor\core;
+namespace fw\core;
 
 
 class ErrorHandler

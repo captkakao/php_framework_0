@@ -11,7 +11,7 @@
 <!--    'cache' => true,-->
 <!--    'cacheTime' => 3600 * 2,-->
 <!--    'cacheKey' => 'fw_widget_name'-->
-    <?php new \vendor\widgets\menu\Menu([
+    <?php new \fw\widgets\menu\Menu([
             'tpl' => WWW . '/menu/select.php',
             'container' => 'select',
             'table' => 'categories'
@@ -28,7 +28,7 @@
     <?php endif; ?>
 </div>
 
-<script src="/js/test.js"></script>
+<!--<script src="/js/test.js"></script>-->
 
 <script>
     $(function () {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vendor\core\base;
+namespace fw\core\base;
 
 
 abstract class Controller

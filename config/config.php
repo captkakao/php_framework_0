@@ -2,7 +2,7 @@
 
 $config = [
     'components' => [
-        'cache' => 'vendor\libs\Cache',
+        'cache' => 'fw\libs\Cache',
 //        'test' => 'vendor\libs\Test'
     ],
 ];
