@@ -39,7 +39,26 @@ class User extends Model
             if ($user->email == $this->attributes['email']) {
                 $this->errors['unique'][] = 'Email is already busy';
             }
+            return false;
         }
+        return true;
+    }
+
+    public function login() {
+        $login = !empty($_POST['login']) ? trim($_POST['login']) : null;
+        $password = !empty($_POST['password']) ? trim($_POST['password']) : null;
+        if ($login && $password) {
+            $user = \R::findOne('users', 'login = ? LIMIT 1', [$login]);
+            if ($user && password_verify($password, $user->password)) {
+                foreach ($user as $k => $v) {
+                    if ($k != 'password') {
+                        $_SESSION['user'][$k] = $v;
+                    }
+                }
+                return true;
+            }
+        }
+        return false;
     }
 
 }

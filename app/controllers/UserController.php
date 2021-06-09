@@ -26,16 +26,29 @@ class UserController extends AppController
             else {
                 $_SESSION['error'] = 'Something went wrong try again later';
             }
-            redirect();
+            redirect('/');
         }
         View::setMeta('Registration');
     }
 
     public function loginAction() {
-
+        if (!empty($_POST)) {
+            $user = new User();
+            if ($user->login()) {
+                $_SESSION['success'] = 'You have successfully loged in';
+            }
+            else {
+                $_SESSION['error'] = 'Incorrect login or password';
+            }
+            redirect();
+        }
+        View::setMeta('Login');
     }
 
     public function logoutAction() {
-
+        if (isset($_SESSION['user'])) {
+            unset($_SESSION['user']);
+            redirect('/user/login');
+        }
     }
 }

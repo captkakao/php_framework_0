@@ -23,15 +23,18 @@
         <li class="nav-item">
             <a class="nav-link" href="/admin">Admin</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/user/signup">SignUp</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/user/login">Login</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/user/logout">Logout</a>
-        </li>
+        <?php if (!isset($_SESSION['user'])): ?>
+            <li class="nav-item">
+                <a class="nav-link" href="/user/signup">SignUp</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/user/login">Login</a>
+            </li>
+        <?php else: ?>
+            <li class="nav-item">
+                <a class="nav-link" href="/user/logout">Logout</a>
+            </li>
+        <?php endif; ?>
     </ul>
 
     <?php if (isset($_SESSION['error'])): ?>
@@ -45,7 +48,6 @@
             <?= $_SESSION['success']; unset($_SESSION['success']) ?>
         </div>
     <?php endif; ?>
-
 
     <?=$content?>
 
