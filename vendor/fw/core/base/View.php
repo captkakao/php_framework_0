@@ -46,20 +46,46 @@ class View
         $this->view = $view;
     }
 
+    public function compressPage($buffer) {
+        $search = [
+            "/(\n)+/",
+            "/\r\n+/",
+            "/\n(\t)+/",
+            "/\n(\ )+/",
+            "/\>(\n)+</",
+            "/\>\r\n</",
+        ];
+
+        $replace = [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            '><',
+            '><',
+        ];
+        return preg_replace($search, $replace, $buffer);
+    }
+
     public function render($vars) {
         $this->route['prefix'] = str_replace('\\', '/', $this->route['prefix']);
         if (is_array($vars)) {
             extract($vars);
         }
         $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
-        ob_start();
-        if (is_file($file_view)) {
-            require $file_view;
+//        ob_start([$this, 'compressPage']);
+        ob_start('ob_gzhandler');
+        {
+            header("Content-Encoding: gzip");
+            if (is_file($file_view)) {
+                require $file_view;
+            }
+            else {
+                throw new \Exception("<p>View not found <b>{$file_view}</b></p>", 404);
+            }
+            $content = ob_get_contents();
         }
-        else {
-            throw new \Exception("<p>View not found <b>{$file_view}</b></p>", 404);
-        }
-        $content = ob_get_clean();
+        ob_clean();
 
         if ($this->layout !== false) {
             $file_layout = APP . "/views/layouts/{$this->layout}.php";
