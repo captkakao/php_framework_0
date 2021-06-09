@@ -13,14 +13,20 @@ class UserController extends AppController
         if (!empty($_POST)) {
             $user = new User();
             $data = $_POST;
-            if ($user->validate($data)) {
-                echo 667;
+            $user->load($data);
+            if (!$user->validate($data) || !$user->checkUnique()) {
+                $user->getErrors();
+                $_SESSION['form_data'] = $data;
+                redirect();
+            }
+            $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+            if ($user->save('users')) {
+                $_SESSION['success'] = 'You have successfully signed up';
             }
             else {
-                echo 45;
+                $_SESSION['error'] = 'Something went wrong try again later';
             }
-            $user->load($data);
-            die();
+            redirect();
         }
         View::setMeta('Registration');
     }

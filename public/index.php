@@ -16,13 +16,6 @@ use fw\core\Router;
 require '../vendor/fw/libs/functions.php';
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-//spl_autoload_register(function ($class) {
-//    $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
-//    if (is_file($file)) {
-//        require_once $file;
-//    }
-//});
-
 new \fw\core\App();
 
 Router::add('^page/?(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);

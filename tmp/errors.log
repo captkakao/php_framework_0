@@ -4,3 +4,11 @@
 ---------------------------------------------
 [2021-06-08 13:50:20] Error text: Undefined variable: nane | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\Model.php, Line: 22
 ---------------------------------------------
+[2021-06-09 03:40:03] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-09 04:06:20] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-09 04:07:19] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-09 05:11:25] Error text: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'qaramysyq' for key 'login' | File: D:\OSPanel\domains\fw-loc\vendor\fw\libs\rb.php, Line: 834
+---------------------------------------------
