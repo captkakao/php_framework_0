@@ -34,3 +34,31 @@
 ---------------------------------------------
 [2021-06-09 10:57:34] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
 ---------------------------------------------
+[2021-06-09 23:30:34] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 17
+---------------------------------------------
+[2021-06-09 23:30:34] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-09 23:31:11] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 17
+---------------------------------------------
+[2021-06-09 23:31:25] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 17
+---------------------------------------------
+[2021-06-09 23:31:25] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 17
+---------------------------------------------
+[2021-06-09 23:42:58] Error text: Call to undefined method fw\libs\Pagination::getStart() | File: D:\OSPanel\domains\fw-loc\app\controllers\MainController.php, Line: 25
+---------------------------------------------
+[2021-06-09 23:45:28] Error text: Undefined property: fw\libs\Pagination::$perpage | File: D:\OSPanel\domains\fw-loc\vendor\fw\libs\Pagination.php, Line: 93
+---------------------------------------------
+[2021-06-09 23:46:01] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2, 2  -- keep-cache' at line 1 | File: D:\OSPanel\domains\fw-loc\vendor\fw\libs\rb.php, Line: 834
+---------------------------------------------
+[2021-06-09 23:48:29] Error text: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-2, 2  -- keep-cache' at line 1 | File: D:\OSPanel\domains\fw-loc\vendor\fw\libs\rb.php, Line: 834
+---------------------------------------------
+[2021-06-09 23:48:29] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-10 00:24:09] Error text: syntax error, unexpected ';', expecting ',' or ')' | File: D:\OSPanel\domains\fw-loc\vendor\fw\libs\Pagination.php, Line: 78
+---------------------------------------------
+[2021-06-10 00:40:01] Error text: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | File: D:\OSPanel\domains\fw-loc\app\views\Main\index.php, Line: 34
+---------------------------------------------
+[2021-06-10 00:40:19] Error text: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | File: D:\OSPanel\domains\fw-loc\app\views\Main\index.php, Line: 34
+---------------------------------------------
+[2021-06-10 00:46:19] Error text: Undefined variable: pagination | File: D:\OSPanel\domains\fw-loc\app\views\Main\index.php, Line: 30
+---------------------------------------------

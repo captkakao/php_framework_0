@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\Main;
 use fw\core\App;
 use fw\core\base\View;
+use fw\libs\Pagination;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 
@@ -14,18 +15,18 @@ class MainController extends AppController
 
     public function indexAction()
     {
-//        // create a log channel
-//        $log = new Logger('name');
-//        $log->pushHandler(new StreamHandler(ROOT . '/tmp/your.log', Logger::WARNING));
-//
-//        // add records to the log
-//        $log->warning('Foo');
-//        $log->error('Bar');
-
         $model = new Main();
-        $posts = \R::findAll('posts');
+
+        $total = \R::count('posts');
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perPage = 2;
+
+        $pagination = new Pagination($page, $perPage, $total);
+        $start = $pagination->getStart();
+
+        $posts = \R::findAll('posts', "LIMIT $start, $perPage");
         View::setMeta('Main page', 'Page description', 'Keywords');
-        $this->setVars(compact('posts'));
+        $this->setVars(compact('posts', 'pagination', 'total'));
     }
 
     public function testAction()
