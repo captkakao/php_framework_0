@@ -62,3 +62,5 @@
 ---------------------------------------------
 [2021-06-10 00:46:19] Error text: Undefined variable: pagination | File: D:\OSPanel\domains\fw-loc\app\views\Main\index.php, Line: 30
 ---------------------------------------------
+[2021-06-10 14:16:15] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
