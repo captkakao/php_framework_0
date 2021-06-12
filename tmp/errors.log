@@ -64,3 +64,45 @@
 ---------------------------------------------
 [2021-06-10 14:16:15] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
 ---------------------------------------------
+[2021-06-11 12:16:59] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:16:59] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-11 12:19:44] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:20:25] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:20:30] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:47] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:47] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:47] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:47] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:48] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:22:48] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:24:58] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:24:59] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:24:59] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:29:32] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:29:34] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:29:34] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-11 12:29:34] Error text: Class 'R' not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 27
+---------------------------------------------
+[2021-06-12 12:26:17] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 12:55:26] Error text: syntax error, unexpected '}' | File: D:\OSPanel\domains\fw-loc\vendor\fw\widgets\language\Language.php, Line: 37
+---------------------------------------------
+[2021-06-12 13:12:05] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------

@@ -17,7 +17,7 @@ class MainController extends AppController
     {
         $model = new Main();
         App::$app->setProperty('test', 'TEST VALUE');
-        dd(App::$app->getProperties());
+//        dd(App::$app->getProperties());
 
         $total = \R::count('posts');
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;

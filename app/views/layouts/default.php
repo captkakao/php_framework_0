@@ -35,6 +35,7 @@
                 <a class="nav-link" href="/user/logout">Logout</a>
             </li>
         <?php endif; ?>
+        <?php new \fw\widgets\language\Language(); ?>
     </ul>
 
     <?php if (isset($_SESSION['error'])): ?>
