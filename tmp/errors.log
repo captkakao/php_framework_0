@@ -106,3 +106,29 @@
 ---------------------------------------------
 [2021-06-12 13:12:05] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
 ---------------------------------------------
+[2021-06-12 14:08:56] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 18:17:03] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 18:56:57] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 19:35:36] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:38:29] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:42:46] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:47:16] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:47:24] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:48:43] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 19:50:48] Error text: Page not found | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\Router.php, Line: 106
+---------------------------------------------
+[2021-06-12 19:50:52] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:58:05] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------
+[2021-06-12 19:58:31] Error text: <p>View not found <b>D:\OSPanel\domains\fw-loc/app/views/Language/change.php</b></p> | File: D:\OSPanel\domains\fw-loc\vendor\fw\core\base\View.php, Line: 84
+---------------------------------------------

@@ -34,8 +34,6 @@
     <?php endif; ?>
 </div>
 
-<!--<script src="/js/test.js"></script>-->
-
 <script>
     $(function () {
         $('#send').click(function () {
